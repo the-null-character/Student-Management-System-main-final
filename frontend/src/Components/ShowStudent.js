@@ -6,7 +6,55 @@ import './ShowStudent.css';
 import Header from "./header";
 
 export default function ShowStudents() {
-  const [students, setStudents] = useState([]);
+  const [students, setStudents] = useState([
+
+    {
+      "_id": "64ace80d0662aca3acad7bc4",
+      "name": "Alice Smith",
+      "age": 24,
+      "gender": "female",
+      "mark1": 78,
+      "mark2": 85,
+      "mark3": 90,
+      "grade": "B",
+      "__v": 0
+    },
+
+    {
+      "_id": "64ace80d0662aca3acad7bc4",
+      "name": "Alice Smith",
+      "age": 24,
+      "gender": "female",
+      "mark1": 78,
+      "mark2": 85,
+      "mark3": 90,
+      "grade": "B",
+      "__v": 0
+    },
+    {
+      "_id": "64ace80d0662aca3acad7bc5",
+      "name": "Bob Johnson",
+      "age": 31,
+      "gender": "male",
+      "mark1": 92,
+      "mark2": 88,
+      "mark3": 95,
+      "grade": "A",
+      "__v": 0
+    },
+    {
+      "_id": "64ace80d0662aca3acad7bc6",
+      "name": "Emily Davis",
+      "age": 27,
+      "gender": "female",
+      "mark1": 70,
+      "mark2": 80,
+      "mark3": 75,
+      "grade": "C+",
+      "__v": 0
+    },
+
+  ]);
 
   useEffect(() => {
     const getStudents = () => {
@@ -65,6 +113,10 @@ export default function ShowStudents() {
             </tr>
           </thead>
           {students.map((item, count = 0) => (
+
+            
+
+
             <tbody>
               <tr>
                 <td style={{ color: "red" }}>{count + 1}</td>

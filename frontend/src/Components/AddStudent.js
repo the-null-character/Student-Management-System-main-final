@@ -42,6 +42,7 @@ export default function AddStudent() {
               icon: "error",
               title: "Oops...",
               text: err.message,
+              
             });
           });
       } else if (result.isDenied) {

@@ -17,7 +17,7 @@ easily manipulated in your server-side code.*/
 app.use(bodyParser.json());
 
 //connect database
-const URL = 'mongodb+srv://Akshay:Password@cluster0.l9mdbl2.mongodb.net/?retryWrites=true&w=majority';
+const URL = 'mongodb://127.0.0.1:27017';
 
 mongoose.connect(URL, {
   useNewUrlParser: true,

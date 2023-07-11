@@ -1,3 +1,8 @@
 # Student-Management-System
 
-This project consists with a basic Full crud operation using MERN stack. Also added some validations using SweetALert 2
+This project consists with a basic Full crud operation using MERN stack.
+
+For signing in to the system:
+
+Username: admin
+Password: password

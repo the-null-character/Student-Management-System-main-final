@@ -1,0 +1,74 @@
+.attendance-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .attendance-page h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  .attendance-checkbox {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .attendance-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #853535;
+    border: 1px solid #4a1a1a;
+  }
+  
+  .attendance-checkbox input:checked ~ .checkmark {
+    background-color: #45d871;
+  }
+  
+  .attendance-checkbox input:checked ~ .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .attendance-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .attendance-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  

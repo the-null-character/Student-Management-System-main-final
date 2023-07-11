@@ -39,7 +39,11 @@ function App() {
       <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <p class="footer-text">© 2023 MANAV - Student Management System. All rights reserved.</p>
+          <p class="footer-text">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">© 2023 MANAV - Student Management System. All rights reserved.</a>
+            
+          
+          </p>
         </div>
       </div>
     </footer>
